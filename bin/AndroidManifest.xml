@@ -24,8 +24,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MostrarValorActivity"
-            android:label="@string/title_activity_mostrar_valor" >
+            android:name=".ConteudoActivity"
+            android:label="@string/title_exibir_conteudor" >
         </activity>
     </application>
 
