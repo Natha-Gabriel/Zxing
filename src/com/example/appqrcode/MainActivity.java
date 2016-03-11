@@ -44,7 +44,7 @@ public class MainActivity extends Activity {
 
         }else{
             Toast toast = Toast.makeText(getApplicationContext(),
-                    "Nenhum dado foi recebido", Toast.LENGTH_SHORT);
+                    "Não foi possível indentifcar o conteúdo", Toast.LENGTH_SHORT);
             toast.show();
         }
 
