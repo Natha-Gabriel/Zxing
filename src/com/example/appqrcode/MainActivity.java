@@ -35,10 +35,10 @@ public class MainActivity extends Activity {
                 (requestCode, resultCode, intent);
 
         if (scanningResult != null) {
-            String conteudoLido = scanningResult.getContents();
+            String c = scanningResult.getContents();
 
             intent = new Intent(this, MostrarValorActivity.class);
-            intent.putExtra("conteudoLido", conteudoLido);
+            intent.putExtra("c", c);
             this.startActivity(intent);
             this.finish();
 
